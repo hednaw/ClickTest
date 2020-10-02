@@ -1,0 +1,36 @@
+body {
+  background-color: #3d475e;
+}
+
+p {
+  font-family: monospace;
+  color: white;
+  justify-content: center;
+  text-align: center;
+  font-size: 20;
+}
+
+h1 {
+  font-family: sans-serif;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-family: sans-serif;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.container {
+  justify-content: center;
+  text-align: center;
+}
+
+#Clicker {
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
