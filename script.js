@@ -5,7 +5,7 @@ var started = false;
 function endTime() {
   document.getElementById("Timer").innerHTML = clicks / 10 + " CPS";
   document.getElementById("Counter").innerHTML = "";
-  document.getElementById("Clicker").disabled = true;
+  document.getElementById("Clicker").remove();
 }
 
 function Clicked() {
