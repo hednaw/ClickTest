@@ -6,7 +6,6 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0 maximum-scale=1 user-scalable=no "
     />
-    
     <meta name="MobileOptimized" content="640" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -20,9 +19,9 @@
   <body>
     <h1>Click Test</h1>
     <h2 id="Counter">0</h2>
-    <h2 id="Timer"></h2>
+    <h2 id="Timer">Time: 10</h2>
     <div class="container">
-      <div id="Clicker" onclick="Clicked()">Click Me!</div>
+      <div id="Clicker" onclick="Clicked(); StartTimer();">Click Me!</div>
       <br /><br /><br />
       <input type="button" id="Refresh" value="Retry" onclick="Retry()" />
     </div>

@@ -31,7 +31,7 @@ h2 {
 
 #Clicker {
   margin: 0 auto;
-  padding: 50px;
+  padding: 100px;
   padding-top: 100px;
   padding-left: 100px;
   padding-right: 100px;
@@ -41,7 +41,7 @@ h2 {
   -moz-user-select: none;
   -ms-user-select: none;
   height: 100px;
-  width: 100px;
+  width: 120px;
   border-radius: 10px;
   font-size: 30px;
   font-family: sans-serif;
